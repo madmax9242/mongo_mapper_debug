@@ -16,3 +16,5 @@ class Story
   key :adverbOne, String, :required => true
   key :adverbTwo, String, :required => true
   key :adverbThree, String, :required => true
+
+end
