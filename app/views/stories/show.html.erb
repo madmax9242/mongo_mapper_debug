@@ -1,79 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Nounone:</strong>
-  <%= @story.nounOne %>
-</p>
+<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Nountwo:</strong>
-  <%= @story.nounTwo %>
-</p>
+<h1 class="center">The Three Little Pigs</h1>
 
-<p>
-  <strong>Nounthree:</strong>
-  <%= @story.nounThree %>
-</p>
 
-<p>
-  <strong>Nounfour:</strong>
-  <%= @story.nounFour %>
-</p>
+  <p>Once upon a time, there were three <strong><%= @story.adjectiveOne %></strong> pigs. One day, their mother said, "You are all grown up and must <strong><%= @story.verbOne %></strong> on your own." So they left to <strong><%= @story.verbTwo %></strong> their houses.  The first little pig only wanted to work all day and quickly built his house out of <strong><%= @story.nounOne %></strong>.  The second little pig wanted to <strong><%= @story.verbThree %></strong> all day so he built his house with <strong><%= @story.nounTwo %></strong>. The third little pig knew that a wolf leved nearby and worked <strong><%= @story.adverbOne %></strong> to build his house out of <strong><%= @story.nounFour %></strong>. One day, the wolf knocked on the first pig's house and said, "Let me in or I'll <strong><%= @story.verbFour %></strong> your house down!" The pig didn't, so the wolf blew down the house. The wolf knocked on the second pig's <strong><%= @story.nounThree %></strong> and said, "Let me in or I'll <strong><%= @story.verbFive %></strong> your house down!" The pig didn't, so the wolf blew the house down. Finally, the wolf knocked <strong><%= @story.adverbTwo %></strong> on the third <strong><%= @story.adjectiveTwo %></strong> pig's door. He said, "Let me in or I'll blow your house down!" The pig didn't and the wolf huffed and puffed but could not blow the house down. The pigs went on to live <strong><%= @story.adverbThree %></strong> ever after.</p>
 
-<p>
-  <strong>Verbone:</strong>
-  <%= @story.verbOne %>
-</p>
-
-<p>
-  <strong>Verbtwo:</strong>
-  <%= @story.verbTwo %>
-</p>
-
-<p>
-  <strong>Verbthree:</strong>
-  <%= @story.verbThree %>
-</p>
-
-<p>
-  <strong>Verbfour:</strong>
-  <%= @story.verbFour %>
-</p>
-
-<p>
-  <strong>Verbfive:</strong>
-  <%= @story.verbFive %>
-</p>
-
-<p>
-  <strong>Adjectiveone:</strong>
-  <%= @story.adjectiveOne %>
-</p>
-
-<p>
-  <strong>Adjectivetwo:</strong>
-  <%= @story.adjectiveTwo %>
-</p>
-
-<p>
-  <strong>Adjectivethree:</strong>
-  <%= @story.adjectiveThree %>
-</p>
-
-<p>
-  <strong>Adverbone:</strong>
-  <%= @story.adverbOne %>
-</p>
-
-<p>
-  <strong>Adverbtwo:</strong>
-  <%= @story.adverbTwo %>
-</p>
-
-<p>
-  <strong>Adverbthree:</strong>
-  <%= @story.adverbThree %>
-</p>
+<h2 class="center">The End</h2>
 
 <%= link_to 'Edit', edit_story_path(@story) %> |
 <%= link_to 'Back', stories_path %>
